@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|K2D');
+
+body {
+  font-family: 'Raleway',monospace;
+  justify-content: center;
+}
+
+.card{
+  width:38em;
+  margin:30px auto;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 600px){
+  .card{
+    width: 20em;
+  }
+  #wrapper{
+    width:100%;
+  }
+}
+#text{
+  font-size: 30px;
+}
+#author{
+  font-family: cursive;
+  font-size: 15px;
+}
+h1{
+  color:white;
+}
+#tumblr{
+  display: inline-block;
+  padding: 10px;
+}
+.fa-twitter{
+  margin:10px auto;
+}
+i{
+  color: white;
+}
+.buttons{
+  color: white;
+}
+#wrapper{
+  width: 100% auto;
+  min-height:  600px;
+}
+
